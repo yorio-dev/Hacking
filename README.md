@@ -102,6 +102,19 @@ $mahasiswa = [
     ]
 ];
 
-?>			
+?>
+
+<?php 
+// cek apakah tidak ada data di $_GET
+if( !isset($_GET["nama"]) || 
+    !isset($_GET["nrp"]) ||
+    !isset($_GET["email"]) ||
+    !isset($_GET["jurusan"]) ||
+    !isset($_GET["gambar"]) ) {
+    // redirect
+    header("Location: latihan1.php");   
+    exit;
+}
+
 </body>
 </html>
