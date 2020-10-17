@@ -81,5 +81,27 @@ var geometry = new THREE.BoxGeometry(); /* bentuk 3d */
 			};
 
 			animate();
+			
+			
+<?php 
+// $_GET
+$mahasiswa = [
+    [
+        "nama" => "You Rio", 
+        "nrp" => "0987465390", 
+        "email" => "yorio.co@gmail.com",
+        "jurusan" => "Teknik Informatika",
+        "gambar" => "yorioo.jpg"
+    ],
+    [
+        "nama" => "Yoyo Rio", 
+        "nrp" => "098742580", 
+        "email" => "yoyorio.co@gmail.com",
+        "jurusan" => "Teknik Industri",
+        "gambar" => "yourioo.jpg"
+    ]
+];
+
+?>			
 </body>
 </html>
